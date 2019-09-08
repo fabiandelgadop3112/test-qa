@@ -5,7 +5,7 @@ import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith (CucumberWithSerenity.class)
-@CucumberOptions (features = "src/test/resources/features/ebay/forms/ResultsValidation.feature",tags= "@EjecucionTotal")
-public class runnerTestQAautomation {
+@CucumberOptions (features = "src/test/resources/features/ebay/forms/ResultsValidation.feature",tags= "@ValidacionDeOrdenadores")
+public class RunnerTestCaseFour {
 
 }

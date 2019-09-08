@@ -20,7 +20,7 @@
 		<tags></tags>
 		<parallel.tests>4</parallel.tests>
 		<webdriver.base.url></webdriver.base.url>
-		<webdriver.driver>iexplorer</webdriver.driver>
+		<webdriver.driver>chrome</webdriver.driver>
 	</properties>
 	<!-- Define the Bintray repos for convenience -->
 	<repositories>
@@ -128,7 +128,7 @@
 	<!-- crea el perfil de ejecucion -->
 	<profiles>
 		<profile>
-			<id>oc</id>
+			<id>allCases</id>
 			<build>
 				<plugins>
 					<plugin>
@@ -137,13 +137,81 @@
 						<version>2.21.0</version>
 						<configuration>
 							<includes>
-								<include>**/runner.java</include>
+								<include>**/runnerTestQAautomation.java</include>
 							</includes>
 						</configuration>
 					</plugin>
 				</plugins>
 			</build>
-		</profile>		
+		</profile>
+		<profile>
+			<id>caseone</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>2.21.0</version>
+						<configuration>
+							<includes>
+								<include>**/RunnerTestCaseOne.java</include>
+							</includes>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		<profile>
+			<id>casetwo</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>2.21.0</version>
+						<configuration>
+							<includes>
+								<include>**/RunnerTestCaseTwo.java</include>
+							</includes>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		<profile>
+			<id>casethree</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>2.21.0</version>
+						<configuration>
+							<includes>
+								<include>**/RunnerTestCaseThree.java</include>
+							</includes>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		<profile>
+			<id>casefour</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>2.21.0</version>
+						<configuration>
+							<includes>
+								<include>**/RunnerTestCaseFour.java</include>
+							</includes>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
 	</profiles>
 	<!-- fin crea el perfil de ejecucion -->
 	<build>
