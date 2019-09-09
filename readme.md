@@ -62,7 +62,9 @@ $ git clone https://github.com/fabiandelgadop3112/test-qa.git
 
 2. Abrir Jenkins y configurar el JDK y MAVEN para Jenkins en la opción **"Global Tools Configuration"** en la administración de Jenkins.
 
-![Imagen 1](https://killcloud.nyc3.digitaloceanspaces.com/readme/Image1.png)
+<p align="center">
+ <img src="https://killcloud.nyc3.digitaloceanspaces.com/readme/Image1.png" alt="Imagen 1">
+</p>
 
 3. En la opción JDK añadir un JDK con nombre JAVA SE 8 e indicar la ruta en el cual se encuentra instalado el JDK localmente.
 
