@@ -185,4 +185,8 @@ En este punto iniciara la ejecución del caso de prueba configurado. El progreso
 
 ![Imagen 23](https://killcloud.nyc3.digitaloceanspaces.com/readme/Image23.png)
 
+### ARCHIVOS ADICIONALES Y EVIDENCIA DE LA EJECUCION
+
+De manera informativa, en la carpeta [evidencia](https://github.com/fabiandelgadop3112/test-qa/tree/master/evidence), se tienen las evidencias de ejecución indicando el resultado de la prueba y la salida por consola del proceso.
+
 ***Si se desean ejecutar todos los casos de prueba propuestos el profile configurado debe ser “allCases”***
